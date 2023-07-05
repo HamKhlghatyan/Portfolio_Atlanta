@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #000000c2;
+    padding: 30px 0px;
+    position: fixed;
+}
+.xbox{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+    object-fit: contain;
+}
+nav ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+gap: 23px;
+font-size: 17px;
+}
+nav a{
+    color: #ffffffcd;
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.barsicon{
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+.home{
+    color: white;
+}
+nav a:hover{
+    color: white;
+}
+.container{
+    max-width: 1440;
+    width: 100%;
+    margin: auto;
+}
+.rek{
+    width: 100%;
+    height: 600px;
+    background-image: url(./photo/bg_header.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0px 20px;
+}
+.rek i{
+    font-size: 50px;
+    color: white;
+    transition: 2s;
+}
+.rek i:hover{
+    font-size: 65px;
+    transition: 2s;
+}
+.box1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.box1 h3{
+    font-size: 29px;
+    padding: 10px 0px;
+}
+.box1 p{
+    font-size: 17px;
+    padding: 0px 180px;
+}
+.cbox{
+    padding: 35px 0px;
+}
+.box2{
+    width: 100%;
+    background-color: #E0E0E0;
+}
+.textbox{
+    width: 100%;
+    text-align: center;padding: 30px 0px;
+}
+.bigbox{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mbox{
+    width: 24%;
+    margin-bottom: 40px;
+}
+.imgbox{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imgbox i{
+    font-size: 75px;
+    padding-bottom: 30px;
+    color: #EE0C45;
+}
+.info{
+    width: 100%;
+    text-align: center;
+}
+.box3{
+    width: 75%;
+    margin: auto;
+}
+.fbox{
+    width: 100%;
+}
+.a1{
+    width: 100%;
+    text-align: center;
+}
+.a1 h2{
+    font-size: 32px;
+    margin: 30px 0px 20px 0px;
+}
+.a1 p{
+margin-bottom: 12px;
+}
+.bigbox-2{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+    
+}
+.bbox{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bbox div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.bbox i{
+    font-size: 32px;
+    color: #EE0C45;
+}
+.bbox h3{
+    font-size: 25px;
+    
+}
+.bigbox-3{
+    width: 100%;
+    padding: 25px;
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.bigbox-3 button{
+    font-size: 16px;
+    margin: 5px 0px 15px 0px;
+    font-weight: 700;
+    padding: 9px 35px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: #0CC8E4;
+}
+.box4{
+    width: 45%;
+    margin: 50px auto;
+}
+.box4 h2{
+    font-size: 25px;
+    text-align: center;
+}
+.ubox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.ubox i{
+    font-size: 35px;
+}
+.a3{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.a4{
+    display: none;
+}
+.ibox{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ibox img{
+    width: 100%;
+    object-fit: cover;
+}
+.infobox{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer{
+    width: 100%;
+    color: white;
+    background-color: #302A31;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.wbox{
+    width: 23%;
+    margin-bottom: 20px;
+}
+.pbox{
+    width: 32%;
+    margin-bottom: 20px;
+}
+.rbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px;
+}
+.rbox div{
+    display: flex;
+}
+.rbox h3{
+font-size: 16px;
+padding: 15px 0px;
+}
+.rbox p{
+    font-size: 12px;
+    
+}
+.rbox a{
+    font-size: 12px;
+    color: white;
+}
+.a2{
+    justify-content: flex-start;
+    gap: 8px;
+}
+.a2 i{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.434);
+}
+.a2 i:hover{
+    color: white;
+}
+@media only screen and (max-width: 1250px) {
+    .xbox{
+       width: 790px;
+    }
+    .mbox{
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .xbox{
+        width: 560px;
+    }
+    nav ul{
+        display: none;
+    }
+    .barsicon{
+        display: block;
+    }
+    .rbox{
+        width: 45%;
+    }
+    .bbox{
+        width: 46%;
+    }
+    .bigbox-2{
+        justify-content: space-around;
+        gap: 25px 15px;
+    }
+    
+    .ubox{
+        flex-direction: column;
+    }
+    .a4{
+        display: block;
+    }
+    .a5{
+        display: none;
+    }
+    .box1 p{
+        padding: 0px 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .mbox{
+        width: 95%;
+    }
+    .rbox{
+        width: 95%;
+    }
+    .bbox{
+        width: 96%;
+    }
+    .xbox{
+        width: 360px;
+    }
+}
